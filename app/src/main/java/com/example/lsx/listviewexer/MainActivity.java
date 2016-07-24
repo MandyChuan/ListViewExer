@@ -47,13 +47,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void InitFruit() {
-        String[] fruitName = {"apple", "banana", "orange", "watermelon", "pear", "grape","apple",
-                "apple", "banana", "orange", "watermelon", "pear", "grape","apple"};
-        int[] fruitImages = {R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,
-                R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,
-                R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,
-                R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,
-                R.drawable.ic_launcher};
+        String[] fruitName = {"apple", "banana", "cherry", "grape", "mango", "orange","pear",
+                "pineapple", "strawberry", "watermelon"};
+        int[] fruitImages = {R.drawable.apple_pic,R.drawable.banana_pic,R.drawable.cherry_pic,
+                R.drawable.grape_pic,R.drawable.mango_pic,R.drawable.orange_pic,
+                R.drawable.pear_pic,R.drawable.pineapple_pic,R.drawable.strawberry_pic,
+                R.drawable.watermelon_pic};
 
         mFruitList = new ArrayList<>();
         for(int i =0; i<fruitName.length;i++){
